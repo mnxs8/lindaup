@@ -265,7 +265,7 @@ async def upstream(event):
             f"⌔∮ يبدو انك نصبت جمثوم عبر السيرفر يرجى ارسال `{cmdhd}تحديث الان`",
         )
     event = await edit_or_reply(event, "⌔∮ يتم الان الوصول الى معلومات التحديث انتظر")
-    off_repo = "https://github.com/sbb-b/zuhairy"
+    off_repo = "https://github.com/mnxs8/lindainup"
     os.chdir("/app")
     try:
         txt = (
