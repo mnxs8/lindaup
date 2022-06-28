@@ -32,8 +32,8 @@ def close_connection(*_):
 
 signal.signal(signal.SIGTERM, close_connection)
 
-if Config.UPSTREAM_REPO == "sbb_b":
-    UPSTREAM_REPO_URL = "https://github.com/sbb-b/sbb_b"
+if Config.UPSTREAM_REPO == "manxs":
+    UPSTREAM_REPO_URL = "https://github.com/mnxs8/lindainup"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
